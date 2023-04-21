@@ -13,7 +13,7 @@ public class HomeController {
         return ResponseEntity.ok("Index Message");
     }
 
-    @GetMapping("/api/v1/home")
+    @GetMapping("/api/v1/home/")
     public ResponseEntity<String> home() {
         return ResponseEntity.ok("Home from secured endpoint");
     }

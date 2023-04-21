@@ -1,6 +1,6 @@
-package com.tookoocha.security.user;
+package com.tookoocha.security.entity;
 
-import com.tookoocha.security.token.Token;
+import com.tookoocha.security.enums.Role;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;

@@ -1,4 +1,4 @@
-package com.tookoocha.security.config;
+package com.tookoocha.security.service;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

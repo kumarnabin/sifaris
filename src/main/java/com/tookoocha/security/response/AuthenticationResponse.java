@@ -1,4 +1,4 @@
-package com.tookoocha.security.auth;
+package com.tookoocha.security.response;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;

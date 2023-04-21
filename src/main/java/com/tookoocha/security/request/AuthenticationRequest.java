@@ -1,4 +1,4 @@
-package com.tookoocha.security.auth;
+package com.tookoocha.security.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

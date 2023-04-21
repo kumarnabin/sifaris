@@ -1,6 +1,6 @@
-package com.tookoocha.security.config;
+package com.tookoocha.security.service;
 
-import com.tookoocha.security.token.TokenRepository;
+import com.tookoocha.security.repository.TokenRepository;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;

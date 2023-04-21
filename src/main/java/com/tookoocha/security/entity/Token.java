@@ -1,6 +1,6 @@
-package com.tookoocha.security.token;
+package com.tookoocha.security.entity;
 
-import com.tookoocha.security.user.User;
+import com.tookoocha.security.enums.TokenType;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

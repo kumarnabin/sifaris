@@ -1,6 +1,7 @@
 package com.tookoocha.security.config;
 
-import com.tookoocha.security.token.TokenRepository;
+import com.tookoocha.security.repository.TokenRepository;
+import com.tookoocha.security.service.JwtService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

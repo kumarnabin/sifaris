@@ -1,7 +1,9 @@
-package com.tookoocha.security.token;
+package com.tookoocha.security.repository;
 
 import java.util.List;
 import java.util.Optional;
+
+import com.tookoocha.security.entity.Token;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

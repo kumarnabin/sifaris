@@ -1,12 +1,14 @@
-package com.tookoocha.security.auth;
+package com.tookoocha.security.service;
 
-import com.tookoocha.security.config.JwtService;
-import com.tookoocha.security.token.Token;
-import com.tookoocha.security.token.TokenRepository;
-import com.tookoocha.security.token.TokenType;
-import com.tookoocha.security.user.Role;
-import com.tookoocha.security.user.User;
-import com.tookoocha.security.user.UserRepository;
+import com.tookoocha.security.request.AuthenticationRequest;
+import com.tookoocha.security.request.RegisterRequest;
+import com.tookoocha.security.response.AuthenticationResponse;
+import com.tookoocha.security.entity.Token;
+import com.tookoocha.security.repository.TokenRepository;
+import com.tookoocha.security.enums.TokenType;
+import com.tookoocha.security.enums.Role;
+import com.tookoocha.security.entity.User;
+import com.tookoocha.security.repository.UserRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

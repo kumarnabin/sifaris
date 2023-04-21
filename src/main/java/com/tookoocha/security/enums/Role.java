@@ -1,4 +1,4 @@
-package com.tookoocha.security.user;
+package com.tookoocha.security.enums;
 
 public enum Role {
 
